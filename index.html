@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Pàgina</title>
+    <title>Business Plan System</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Business Plan System</h1>
+    </header>
+    <hr>
+    <nav class="menu">
+        <ul class="menu-flex">
+            <li><a href="./">Inicio</a></li>
+            <li><a href="mision.html">Mision</a></li>
+            <li><a href="objetivos.html">Objetivos</a> </li>
+            <li><a href="metodologia.html">Metodologia</a> </li>
+            <li><a href="resultados.html">Resultados</a> </li>
+            <li><a href="contactenos.html">Contactenos</a> </li>
+        </ul>
+    </nav>
+    <section class="principal">
+        <article class="principal-contenido">
+            <h2>EL SISTEMA MAS UTILIZADO POR DIRECTIVOS</h2>
+            <div class="principal-icono">
+                <img src="./imagenes/location_on.svg" alt="">
+                <p>
+                    En solo unos minutos y sin ningun conocimiento tecnico previo, le permitira obtener su presupuesto
+                    de ingresos-gastos-cuentas de resultados
+                    y objetivos detallados al nivel que usted deseé, Asimismo le proporcionara el control,
+                    seguimiento,proyeccion y simulacion por cualquier concepto
+                </p>
+            </div>
+            <a href="#" class="boton">Contactar</a>
+        </article>
+    </section>
+    <main class="sombra">
+        <section class="servicios">
+            <article class="servicio">
+                <h3>MISIÓN</h3>
+                <div class="servicio-icono">
+<img src="./imagenes/globo.svg" alt="">
+                </div>
+                <p>
+                    estudios recientes demuestran que un una de las principales causas en la diferenciacion de
+                    rendimientos
+                    en organizaciones de un mismo tamaño, es la escasa
+                    o deficiente capacidad y por lo tanto su cmpetitividad,los responsables de gestion necesitan
+                    incrementar
+                    dicha capacidad y por lo tanto su competitividad...
+                </p>
+                <a href="./mision.html" class="boton">Leer Mas</a>
+            </article>
+            <article class="servicio">
+                <h3>OBJETIVOS</h3>
+                <div class="servicio-icono">
+                <img src="./imagenes/hecho.svg" alt="">
+                </div>
+                <p>
+                    aportar al responable de gestion un instrumento rapido, flexible pero sobre todo sencillo de
+                    utilizar,
+                    que le permita cuanificar todos los factores implicados directa
+                    o indirectamente en los resultados y evaluar de forma instantanea el impacto de sus decisiones...
+                </p>
+                <a href="./objetivos.html" class="boton">Leer Mas</a>
+            </article>
+            <article class="servicio">
+                <h3>METODOLOGIA</h3>
+                <div class="servicio-icono">
+              <img src="./imagenes/servidor.svg" alt="">
+                </div>
+                <p>
+                    La metodologia a seguir es la siguiente
+                </p>
+                <dl>
+                    <dt>
+                        * definimos nuestro modelo de negocios
+                    </dt>
+                    <dd>
+                        El sistma nos va guiando y perite acceder a una serie de casos ya preprados de diferentes
+                        sectores...
+                    
+                    <p>
+                        <a href="./metodologia.html" class="boton">Leer Mas</a>
+            </article>
+        </section>
+        <section>
+
+            <article class="servicio">
+                <h3>RESULTADOS</h3>
+                <div class="articulo-icono">
+
+                </div>
+                <p>
+                    Una ves que hemos completado el presupuesto tenemos acceso a as de 170.000 pantallas de informacion
+                    diferente. Desde l cuenta de resultados personales, hasta la hoja de objetivos
+                    de renta por cada factor...
+                </p>
+                <a href="./resultados.html" class="boton">Leer Mas</a>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>RESULTADOS</h2>
+                <p>
+                    Un mayor dominio del negocio al poder identificar y definir los objetivos dc forma clara y concreta.
+                <p>
+                    Cuantificar los recursos necesarios y la rentabilidad previsible.
+                </p>
+                <p>
+                    Conocer los factores claves de su negocio y su participacion en resultados.
+                </p>
+                <p>
+                    Sistema operativos: Windows 7 o superior. Precio U$300
+                </p>
+                <p>
+                    Requerimientos de Hardware: CPU Dual Core o superior - 2GB RAM - 1GB de disco rigido.
+                </p>
+                </p>
+            </article>
+        </section>
+        
+        <section class="formulario">
+            <article>
+                <h2>CONTACTENOS</h2>
+                <form action="mailto:infobusiness.com" method="post">
+                    <fieldset>
+                        <legend>Complete Los Campos</legend>
+                        <table class="contendor-campos">
+                            <tr class="campo">
+                                <td><label for="NOMBRE">NOMBRE</label></td>
+                                <td><input class="input-text" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required /></td> 
+                            </tr>
+                            <tr class="campo">
+                                <td> <label for="DIRECCION">DIRECCION</label></td>
+                                <td><input class="input-text" type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion" required /></td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="TELEFONO">TELEFONO</label></td>
+                                <td><input class="input-text"   type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" required /></td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="MAIL">MAIL</label></td>
+                                <td><input class="input-text" type="email" name="email" id="mail" placeholder="usuario@servicios" required /></td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="LOCALIDAD">LOCALIDAD</label></td>
+                                <td><input class="input-text" type="text" name="localidad" id="localidad" placeholder="Ingrese su localidad" required /></td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="provincia">PROVINCIA</label></td>
+                                <td><input class="input-text" type="text" name="provincia" id="provincia" placeholder="Ingrese su provincia" required /></td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="SEXO">SEXO</label></td>
+                                <td><input class="input-text" type="radio" name="sexo" id="sexo" value="masculino" />Masculino<br />
+                                    <input class="input-text" type="radio" name="sexo" id="sexo" value="femenino" />Femenino<br />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="FORMADEPAGO"> FORMA DE PAGO</label></td>
+                                <td><select class="input-text" name="formapago" id="formapago"> 
+                                        <option value="">Tarjeta</option>
+                                        <option value="">Depósito Bancario</option>
+                                        <option value="">Rapipago / Pago Fácil</option>
+                                    </select></td>
+                            </tr>
+                            <td>
+                                <input class="boton" type="submit" value="Enviar" />
+                            </td>
+                            <td>
+                                <input class="boton" type="reset" value="Cancelar" />
+                            </td>
+                        </table>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>©Todos los derechos reservados del 2024.</p>
+    </footer>
 </body>
-</html> 
+
+</html>
